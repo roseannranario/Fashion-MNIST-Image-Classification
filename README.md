@@ -4,7 +4,7 @@ Fashion-MNIST-Image-Classification
 
 Fashion-MNIST-Image-Classification
 
-GOOGLE COLAB LINK :
+GOOGLE COLAB LINK : https://colab.research.google.com/drive/190TJbk_OUGbZb2Gd4O-ORJI8nB-q92o_#scrollTo=fykoVV43qYa7
 
 QUESTIONS ***********
 
