@@ -26,3 +26,22 @@ Answer : In Step 2.6 of the lab, the predicted label for the first test image is
 6. What could be done to improve the model’s accuracy?
 Answer : To improve accuracy, you could increase the number of epochs to give the model more time to learn, or add more neurons and hidden layers to increase the model's capacity. Implementing Convolutional Neural Networks (CNNs) instead of simple Dense layers would also significantly boost performance by better capturing spatial hierarchies in the images. Additionally, using techniques like Dropout or Data Augmentation could help the model generalize better to unseen data and reduce overfitting.
 
+Tasks Enhancement:
+TASK ANSWER 1:
+      from tensorflow.keras import layers
+model = keras.Sequential([
+layers.Flatten(input_shape=(28, 28)),
+layers.Dense(256, activation='relu'),
+layers.Dense(10)
+])
+model.summary()
+
+TASK 2:
+    history = model_deep.fit(train_images, train_labels, epochs=22)
+TASK 3:
+    from tensorflow.keras import layers
+
+model = keras.Sequential([ layers.Flatten(input_shape=(28, 28)), layers.Dense(128, activation='relu'), layers.Dense(64, activation='relu'), layers.Dense(10)
+])
+
+model.summary()
